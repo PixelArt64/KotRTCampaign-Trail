@@ -1,0 +1,536 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<p>2024 seems to be a major turning point in the political scene in America. With increasing debt, a stagnate economy, the overturning of Roe V. Wade, and hyperpolarization across the nation a new set of faces have entered the political scene. \n<li>Florida Businessman Brandon New attempts to chart a new direction for the U.S. and the Republican Party\n<li>Previously unknown Democratic governor of Virginia Dawson Campo secures the Democratic nomination after the unexpected dropout of incumbent President Joe Biden.\n<li>Insurgent third-party candidate Jacob Eisele attempts to win the presidency in the name of God.\n</p>",
+            "image_url": "https://media.discordapp.net/attachments/1206730326227812413/1206731125721137152/Nerds_election_2.jpg?ex=65dd12f0&is=65ca9df0&hm=d84a271f6f2eb41115090fbe012b65232131d08205394525a0d71a5d96359678&=&format=webp",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://media.discordapp.net/attachments/1206730326227812413/1206731124202668062/advisor.jpg?ex=65dd12ef&is=65ca9def&hm=ec4abc92190eceab18387fbce38c16552a8246e8f83555e0d363033f86af3a30&=&format=webp&width=759&height=468",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2000"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Brandon",
+            "last_name": "New",
+            "election": 9,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 1,
+            "description": "<p>Brandon New enters 2024 with the support of the populist factions of the Republican party and the endorsement of former President and convicted felon Donald Trump. He is the former CEO of “New Enterprise” and currently serves as the Chair of the recently expanded Central Florida Tourism Oversight District.<p>\n<p>New seeks broad appeal across the political spectrum for his “New Ideas” platform, but lacks experience and many of his social stances are to the right of much of America (despite claiming otherwise). Can he make the case for a “Better Tomorrow” or will he go bankrupt on the Campaign Trail.<p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://media.discordapp.net/attachments/1206730326227812413/1206731126975103046/Pixel_Art_canidate_picture.jpg?ex=65dd12f0&is=65ca9df0&hm=8b68751e7f583b2dd454bc62f3f2c0fb70e415d992186c3baf361de958d35031&=&format=webp",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Dawson ",
+            "last_name": "Campo",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Virgina",
+            "priority": 2,
+            "description": "<p>If you were to ask anyone who would be the Democratic nominee just a year ago, nobody would say Campo yet here we are. Dawson Campo enters the 2024 election as the Democratic candidate after President Joe Biden died due to consuming too much ice cream. He doesn’t want this, he didn’t choose this, but yet here he is.<p>\n<p>Campo is seen as a Conservative Democrat, taking a stand against Immigration and social issues yet also supporting many government programs. Campo hopes to emphasize his bi-partisian nature and present himself as a return to normalcy. Yet many to the left of the party are ready to bolt at a moment's notice if he were to get too Conservative.<p>\n",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://media.discordapp.net/attachments/1206730326227812413/1206731124533887026/Dawson.jpg?ex=65dd12f0&is=65ca9df0&hm=c1ea6a57a42deba8d947c09912b225061cc2a819fc3b2534fa2003b9a44fbaa4&=&format=webp",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Jacob ",
+            "last_name": "Eisele",
+            "election": 9,
+            "party": "Independent",
+            "state": "New York",
+            "priority": 3,
+            "description": "<p>Former Welder turned mayor of Geneva, New York, Jacob Eisele claims to be the Holy Roman Emperor of the Americas and the Falkland Islands. He hopes to run as a Christian candidate citing New’s ties to Buddhism and Campo’s lack of religious devotion. Eisele hopes to provide a true alternative to the American people and hopes to forward the message about how great Mountain Dew and FromSoft games are. <p>\n<p>His main challenge is trying to get on the ballot in all 50 states. After that it's all a matter of getting a significant chunk of the vote. If he were to to get 5% of the popular vote or win a single state his campaign could go down as one of the best and most strangest third-party performances in U.S history.<p>",
+            "color_hex": "#ffff00",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://cdn.discordapp.com/attachments/1206730326227812413/1206737471052714024/image.png?ex=65dd18d9&is=65caa3d9&hm=47f27a14f333f063494adb128a71aa944e7ebc4405db55cd4484eea41b3f01e5&",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "Cornel",
+            "last_name": "West",
+            "election": 9,
+            "party": "Independent Progressive",
+            "state": "Virginia",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Jackson",
+            "last_name": "Cannon ",
+            "election": 9,
+            "party": "Republican",
+            "state": "Utah",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1206730326227812413/1206739429666852874/image.png?ex=65dd1aac&is=65caa5ac&hm=d14ef67588aacbe8ef0fbaf3d0ef4abe873df940d5219dda186a63d51aaf833d&",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>After Mitt Romney resigned from his seat in the Senate, Governor Spencer Cox appointed University of Southern Utah President Jackson Cannon as his replacement. Cannon is seen as a hardcore Reformist often criticizing both sides of the aisle and exposing the dirty money in politics.<p> \n<p>Policy wise he is much more moderate which would help balance the ticket and unite the party while keeping an outsider image. His ties to the Church of Latter Day Saints would help galvanized the Christian community who were put off towards your Buddhist background.  Though many have commented on Cannon’s striking resemblance to Greenland’s Dictator with conspiracy floating about of them being the same guy.<p>    \n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "Tal",
+            "last_name": "Kanistras",
+            "election": 9,
+            "party": "Independent",
+            "state": "Massachusetts",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1206730326227812413/1206788347629146132/image.png?ex=65dd483b&is=65cad33b&hm=4abb676d3dd0c6e7c1630cd6cfd2a934b7ef21bb3f8d8e687a8756ffb221d7cb&",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Many establishment figures within the Republican party have been concerned over the rise of populist figures (such as yourself) in the party. It seemed hopeless to unite the party before the convention until you received a phone call from an old friend.<p>\n<p>Tal Kanistras is currently the Ambassador to Israel and former officer of the Navy after graduating from the Naval Academy. Though not being a Republican he has several ties and connections to party leadership and is the type of figure that can appease the more establishment figures of the party. The only downsides is that his home state of Massachusetts is not competitive this season but is overall a solid choice for VP.<p>   \n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 83,
+        "fields": {
+            "first_name": "Thatcher",
+            "last_name": "Lamastus",
+            "election": 9,
+            "party": "Republican",
+            "state": "North Carolina",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1206730326227812413/1207159864829411451/image.png?ex=65dea23b&is=65cc2d3b&hm=84d5141c901845394a80d5851947c4c919a3142f649bacd7a17ae1beea607ed2&",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Lamastus is seen as the most eccentric choice from your VP shortlist. Currently serving as a Representative from the state of North Carolina he is well known for his promotion of fit and healthiness in Congress. He is also well known for his social media appearances often appearing online talking about anything that’s on his mind whether it be heavy metal to anime.<p>\n<p>He may seem good on the surface but many of your advisors are concerned over the rumors that surrounds Lamastus. Whether it be his taste in women to alleged Satanic worshiping. Please be warn that these rumors will hurt our campaign in the long run.<p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 84,
+        "fields": {
+            "first_name": "Do Not",
+            "last_name": "Use",
+            "election": 9,
+            "party": "-",
+            "state": "-",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Please do not use</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Joshua",
+            "last_name": "\"Hot Wheels\"",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Minnisota",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1206730326227812413/1206790864899280907/image.png?ex=65dd4a93&is=65cad593&hm=b5917e0505f8aad0f154564f05c48845b909ff15795d06dad81321c53424cc0f&",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p> Joshua “Hot Wheels'' is the incumbent Senator of Minnesota, serving the state since 2018. During his time he has fostered a reputation as a moderate Democrat often trying his best to appease both sides of party factions and Congress itself.<p> \n<p>He is well known for his love of Celtic songs and collection of Hot Wheels. He is overall seen as a safe choice that would temporarily appease the more progressive factions of the party but do be warn that it won’t be enough to convince all progressive voters.<p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 86,
+        "fields": {
+            "first_name": "Its",
+            "last_name": "Aryn",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Washington",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/avatars/974802290076680212/4fb259854fdceadec8068f5aad80e3a6.png?size=1024",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>When you won the Democratic nomination in an upset, a coalition of the party establishment and young progressive hoped to boycott your nomination. Eventually you were able to compromise with certain party figures with one of the concessions being your running mate.<p>\n<p>Its Aryn currently serves as a Representative from Washington State. Aryn is known as a major progressive often pushing social war issues and refuting many Republican arguments. The two of you have a very shaking relationship with Aryn often criticizing you on many of your previous social stances. But Aryn is your best chance of reconciling with progressive Democrats. Whether you like it or not you need them to defeat New this November. <p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 87,
+        "fields": {
+            "first_name": "Arthur",
+            "last_name": "Morgan",
+            "election": 9,
+            "party": "Independent",
+            "state": "Idaho",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1206730326227812413/1206793428000833586/image.png?ex=65dd4cf6&is=65cad7f6&hm=4b589d2728ee025fe23d65278cf049bde7c9f3bee35bb32e11a5f6ed1ad56296&",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>The 2024 Democratic Convention has ended in absolute chaos. With the sudden death of Joe Biden and Vice President Kamala Harris refusing to run you were able to secure the nomination. Many protested your nomination with most prevalent being your Vice President selection. Most of the convention voted “abstain” on the ballot leading to second place winner and perennial candidate Arthur Morgan (Not the video game character) receiving the VP slot.<p> \n<p>Arthur Morgan is anything but a standard Democrat (he is not even a registered Democrat). He holds many Conservative positions (some even more to the right of you), known for not being the brightest, and is often finding himself in controversy. Some have alleged that he drove a girl to kill herself. Overall I think your campaigned is F**ked if you accept him as your running mate as many Democrats have already began to endorse Cornel West.<p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 88,
+        "fields": {
+            "first_name": "Also Do Not Use",
+            "last_name": "",
+            "election": 9,
+            "party": "-",
+            "state": "-",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "-",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Please Do not use<p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Alejandro",
+            "last_name": "Castillo",
+            "election": 9,
+            "party": "Independent",
+            "state": "Vermont",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#ffff00",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Portrait_of_Alejandro_Castillo.jpg/220px-Portrait_of_Alejandro_Castillo.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Independent activist Alejandro Castillo has become a prominent figure in the world of third-parties after receiving 7.5% of the vote as a write-in candidate in the 2022 Vermont gubernatorial election. He is well known for his Libertarian to almost Anarchist policies. <p>\n<p>Both of you enjoy FromSoft games and are both Christians. Castillo though is to the left of you on social issues but you can potentially gain voters from Campo thanks to this. Many conspiracy theories have began to surface about him though with some saying that he is part of the FBI’s Most Wanted after murdering a girl in Arizona and fleeing to North Carolina with his girlfriend but I doubt their true.<p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Zachary",
+            "last_name": "Penwell",
+            "election": 9,
+            "party": "Republican",
+            "state": "New Mexico",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1206730326227812413/1206791784278265936/image.png?ex=65dd4b6e&is=65cad66e&hm=e4687844b6bfafd287ea2a45e37218711ff457ebcf1c1a6374626a0802e04bed&",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>A fellow friend of yours, both of you share the same interest such as your love for FromSoft games. Penwell currently serves in the United States Marine Corps and is known for his \"tough as nails\" attitude with many of his comments being seen as offensive.<p>\n<p>Despite being a loyal VP pick he does come with some downsides. For one he is not well known nationally which won’t help with your name recognition. The other being his tendency to say the N-word which could give you some bad publicity. But Penwell reassures you that he will be helpful on the campaign trail stating “I have something that can topple both candidates’ careers in seconds.”<p> \n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 91,
+        "fields": {
+            "first_name": "Jill",
+            "last_name": "Stien",
+            "election": 9,
+            "party": "Green",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00c100",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 53,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 86
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 49,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 54,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 87
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 55,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 88
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 50,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 83
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 51,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 84
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 93043,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 90
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Pixel Art"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "2000"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#7a0000",
+    "containerColor": "#b30000",
+    "innerWindowColor": "#000475",
+    "bannerImageUrl": "https://media.discordapp.net/attachments/1206730326227812413/1206730540774858772/Nerds_campaign_trail.jpg?ex=65dd1264&is=65ca9d64&hm=d5b94db7f71ab6c35288962948057f287f9e1729daaa85cdc2ad618472d2f59c&=&format=webp",
+    "backgroundImageUrl": "https://images.squarespace-cdn.com/content/v1/5fb4b2ecf5b4445159228aca/1613290333252-DTM5RT92G25Z3M3NZ24Y/protest.jpg?format=2500w"
+}
+
+//#startcode
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#7a0000";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#b30000";
+
+document.getElementById("header").src = "https://media.discordapp.net/attachments/1206730326227812413/1206730540774858772/Nerds_campaign_trail.jpg?ex=65dd1264&is=65ca9d64&hm=d5b94db7f71ab6c35288962948057f287f9e1729daaa85cdc2ad618472d2f59c&=&format=webp";
+
+document.body.background = "https://images.squarespace-cdn.com/content/v1/5fb4b2ecf5b4445159228aca/1613290333252-DTM5RT92G25Z3M3NZ24Y/protest.jpg?format=2500w";
+
+//#endcode
