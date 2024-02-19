@@ -3,7 +3,7 @@ campaignTrail_temp.election_json = [
         "model": "campaign_trail.election",
         "pk": 9,
         "fields": {
-            "year": 2000,
+            "year": 2024,
             "summary": "<p>2024 seems to be a major turning point in the political scene in America. With increasing debt, a stagnate economy, the overturning of Roe V. Wade, and hyperpolarization across the nation a new set of faces have entered the political scene. \n<li>Florida Businessman Brandon New attempts to chart a new direction for the U.S. and the Republican Party\n<li>Previously unknown Democratic governor of Virginia Dawson Campo secures the Democratic nomination after the unexpected dropout of incumbent President Joe Biden.\n<li>Insurgent third-party candidate Jacob Eisele attempts to win the presidency in the name of God.\n</p>",
             "image_url": "https://media.discordapp.net/attachments/1206730326227812413/1206731125721137152/Nerds_election_2.jpg?ex=65dd12f0&is=65ca9df0&hm=d84a271f6f2eb41115090fbe012b65232131d08205394525a0d71a5d96359678&=&format=webp",
             "winning_electoral_vote_number": 270,
