@@ -8,7 +8,7 @@ campaignTrail_temp.election_json = [
             "image_url": "https://media.discordapp.net/attachments/1206730326227812413/1206731125721137152/Nerds_election_2.jpg?ex=65dd12f0&is=65ca9df0&hm=d84a271f6f2eb41115090fbe012b65232131d08205394525a0d71a5d96359678&=&format=webp",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://media.discordapp.net/attachments/1206730326227812413/1206731124202668062/advisor.jpg?ex=65dd12ef&is=65ca9def&hm=ec4abc92190eceab18387fbce38c16552a8246e8f83555e0d363033f86af3a30&=&format=webp&width=759&height=468",
-            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "recommended_reading":
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
             "creator": "Dan Bryan",
@@ -34,7 +34,7 @@ campaignTrail_temp.candidate_json = [
             "is_active": 1,
             "image_url": "https://media.discordapp.net/attachments/1206730326227812413/1206731126975103046/Pixel_Art_canidate_picture.jpg?ex=65dd12f0&is=65ca9df0&hm=8b68751e7f583b2dd454bc62f3f2c0fb70e415d992186c3baf361de958d35031&=&format=webp",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
-            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the  election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
             "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
             "description_as_running_mate": "''",
             "candidate_score": 1,
@@ -502,9 +502,9 @@ campaignTrail_temp.opponents_weighted_json = [
 campaignTrail_temp.temp_election_list = [
     {
         "id": 9,
-        "year": 2000,
+        "year": 2024,
         "is_premium": 0,
-        "display_year": "2000"
+        "display_year": "2024"
     }
 ]
 
